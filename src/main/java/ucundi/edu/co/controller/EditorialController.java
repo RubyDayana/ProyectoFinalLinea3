@@ -24,7 +24,7 @@ import ucundi.edu.co.exception.ModelNotFoundException;
 import ucundi.edu.co.service.IAutorEditorialService;
 import ucundi.edu.co.service.IEditorialService;
 
-@PreAuthorize("hasAuthority('Editorial')")
+//@PreAuthorize("hasAuthority('Editorial')")
 @RestController
 @RequestMapping("/editorial")
 public class EditorialController {
