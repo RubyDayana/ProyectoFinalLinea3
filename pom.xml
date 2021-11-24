@@ -107,6 +107,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+                <finalName>ProyectoFinalLinea3</finalName>
 	</build>
 
 </project>
