@@ -32,7 +32,7 @@ import ucundi.edu.co.exception.ConflictException;
 import ucundi.edu.co.exception.ModelNotFoundException;
 import ucundi.edu.co.service.IAutorService;
 
-@PreAuthorize("hasAuthority('Autor')")
+@PreAuthorize("hasAuthority('Auto')")
 @RequestMapping("/autor")
 @RestController
 @Validated
